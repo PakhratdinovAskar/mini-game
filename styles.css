@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container{
+  width: 80%;
+  height: 80vh; 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.component{
+  width: 20px;
+  height: 20px;
+  background-color:darkgray;
+  margin: 2px;
+  transition: background-color 0.5s ease-out 0.5s;
+}
+
+.component:hover{
+  transition: 0s;
+}
